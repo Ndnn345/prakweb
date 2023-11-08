@@ -1,0 +1,38 @@
+.atas{
+    height: 100px;
+    border-radius: 45px;
+    background-color: greenyellow;
+    border: 1px dotted;  
+    margin-bottom: 10px;
+}
+.kuning{
+    background-color: yellow;
+    height: 140px;
+    width: 140px;
+    margin-bottom: 10px;
+    border: 1px dotted;
+    border-radius: 50px;
+}
+.orange{
+    background-color: orange;
+    height: 140px;
+    width: 1000px;
+    margin-bottom: 10px;
+    border: 1px dotted;
+    border-radius: 50px;
+}
+.biru{
+    background-color: aqua;
+    height: 140px;
+    width: 1000px;
+    border: 1px dotted;
+    border-radius: 50px;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}

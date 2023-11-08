@@ -1,0 +1,50 @@
+.container1{
+    display: flex;
+    /* margin: 5px; */
+}
+.atas1{
+    height: 70px;
+    width: 20%;
+    background-color: peachpuff;
+    border: 1px solid;
+    margin: 5px;
+}
+.atas2{
+    height: 70px;
+    width: 80%;
+    background-color: plum;
+    border: 1px solid;
+    margin: 5px;
+}
+.container2{
+    display: flex;
+    /* margin: 5px; */
+}
+.tengah1{
+    height: 450px;
+    width: 20%;
+    background-color: pink;
+    border: 1px solid;
+    margin: 5px;
+}
+.tengah2{
+    height: 450px;
+    width: 60%;
+    background-color: peachpuff;
+    border: 1px solid;
+    margin: 5px;
+}
+.tengah3{
+    height: 450px;
+    width: 20%;
+    background-color: pink;
+    border: 1px solid;
+    margin: 5px;
+}
+.bawah{
+    height: 70px;
+    width: 1300;
+    background-color: plum;
+    border: 1px solid;
+    margin: 5px;   
+}
