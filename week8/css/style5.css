@@ -1,0 +1,47 @@
+body{
+    background-color: skyblue;
+}
+header{
+    height: 10vh;
+    background-color: palevioletred; 
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+aside{
+    height: 70vh;
+    width: 30vw;
+    background-color: pink;
+    margin: 5px;
+}
+
+article{
+    height: 70vh;
+    width: 70vw;
+    background-color: peachpuff;
+    margin: 5px;
+}
+
+footer{
+    height: 10vh;
+    background-color: palevioletred;
+    margin: 5px;
+}
+
+h3{
+    text-align: center;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 200px;
+}
+img{
+    width: 25%;
+}
+
