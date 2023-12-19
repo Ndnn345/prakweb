@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <style>
+        h2{
+            color: steelblue;
+        }
+        h4{
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h2>hitung kurs rupiah => us</h2>
+    <label for="">masukan nominal uang :</label>
+    <input type="number" name="dolaramerika" id="dolaramerika" onchange="HitungDolarAmerika()"><h4>klik enter!</h4>
+    <p>nilai dalam rupiah ke dollar us =<span id="rupiah_1"></span></p>
+
+    <h2>hitung kurs rupiah => eropa</h2>
+    <label for="">masukan nominal uang :</label>
+    <input type="number" name="dolareropa" id="dolareropa" onchange="HitungDolarEropa()"><h4>klik enter!</h4>
+    <p>nilai dalam rupiah ke dolar eropa =<span id="rupiah_2"></span></p>
+
+    <h2>hitung kurs rupiah => singapura</h2>
+    <label for="">masukan nominal uang :</label>
+    <input type="number" name="dolarsingapura" id="dolarsingapura" onchange="HitungDolarSingapura()"><h4>klik enter!</h4>
+    <p>nilai dalam rupiah ke dolar singapura =<span id="rupiah_3"></span></p>
+
+
+    <script>
+        function HitungDolarAmerika() {
+            let jumlahdolarus = document.getElementById("dolaramerika").value;
+            let jumlahrupiah = 14650 * jumlahdolarus;
+            document.getElementById("rupiah_1").innerText=jumlahrupiah;  
+        }
+
+        function HitungDolarEropa() {
+            let jumlahdolarerp = document.getElementById("dolareropa").value;
+            let jumlahrupiah = 16984 * jumlahdolarerp;
+            document.getElementById("rupiah_2").innerText=jumlahrupiah;  
+        }
+
+        function HitungDolarSingapura() {
+            let jumlahdolarsgd = document.getElementById("dolarsingapura").value;
+            let jumlahrupiah = 11644 * jumlahdolarsgd;
+            document.getElementById("rupiah_3").innerText=jumlahrupiah;  
+        }
+    </script>
+</body>
+</html>
