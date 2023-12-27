@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+        h1{
+            text-align: center;
+            color: darkblue;
+        }
+        body{
+            background-color: skyblue;
+        }
+        label{
+            color: darkblue;
+            font-size:150%;
+        }
+        .select{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="select">
+
+    <h1>PILIH WISATA BERLIBUR MU !</h1>
+    <br>
+    <label for="gambar">Wisata liburan:</label>
+    <select id="gambar" onchange="image()">
+        <option id="img1">Mekkah</option>
+        <option id="img2">Korea Selatan</option>
+        <option id="img3">Paris</option>
+        <option id="img4">Turki</option>
+        <option id="img5">Belanda</option>
+    </select>
+    <br>
+
+</div>
+
+    <img id="gambarpilih" width="400" style="margin-top: 20px;"/>
+
+    <script>
+        function image() {
+            let pilih = document.getElementById("gambar").value;
+            let gambarpilih = document.getElementById("gambarpilih");
+    
+            if (pilih == "Mekkah") {
+                gambarpilih.src = "img/mekkah.jpeg";
+                alert("ingin ke Mekkah?");
+            } 
+            else if (pilih == "Korea Selatan") {
+                gambarpilih.src = "img/korea.jpeg";
+                alert("ingin ke Korea?");
+            } 
+            else if (pilih == "Paris") {
+                gambarpilih.src = "img/paris.jpeg";
+                alert("ingin ke Paris?");
+            }
+            else if (pilih == "Turki") {
+                gambarpilih.src = "img/turkey.jpeg";
+                alert("ingin ke Turki?");
+            }
+            else if (pilih == "Belanda") {
+                gambarpilih.src = "img/belanda.jpeg";
+                alert("ingin ke Belanda?");
+            }
+    }
+    </script>
+</body>
+</html>
